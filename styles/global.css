@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .lista-cabecalho {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 18px;
+    font-size: 13px;
+  }
+  
+  .botao-primario {
+    background-color: #1a73e8;
+    color: white;
+    border: 0;
+    width: 95px;
+    height: 36px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .google-apps {
+    display: flex;
+    flex-wrap: wrap;
+    width: 21px;
+    gap: 2px;
+  }
+  
+  .item-apps {
+    background-color: #5f6368;
+    height: 4px;
+    width: 4px;
+    border-radius: 50px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    height: 370px;
+  }
+  
+  .input-pesquisar {
+    width: 600px;
+    height: 45px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    outline: none;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 130px;
+  }
+  
+  .logo {
+    width: 280px;
+  }
+  
+  .icone-google {
+    position: absolute;
+  }
+  
+  .container-pesquisar {
+    position: relative;
+  }
+  
+  #lupa-icone {
+    width: 15px;
+    top: 17px;
+    left: 20px;
+  }
+  
+  #teclado-icone {
+    width: 25px;
+    top: 10px;
+    right: 100px;
+  }
+  
+  #microfone-icone {
+    width: 14px;
+    top: 12px;
+    right: 65px;
+  }
+  
+  #camera-icone {
+    width: 20px;
+    right: 20px;
+    top: 14px;
+  }
+  
+  .container-botoes-pesquisa {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .botao-secundario {
+    height: 40px;
+    width: 145px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #202124;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    color: #70757a;
+  }
+  
+  .baixo-rodape {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    font-size: 14px;
+  }
+  
+  .lista-rodape {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  .cima-rodape {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+  }
